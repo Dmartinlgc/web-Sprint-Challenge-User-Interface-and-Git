@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 4px solid grey
 }
 
 html, body {
@@ -65,7 +66,33 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*Header section*/
+header{
+    width:100%
 
+}
+
+nav {
+    padding:left 1%;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family:'Roboto';
+    font-weight: bold;
+    width:100%
+}
+nav a{
+    text-decoration: none;
+    color: black; 
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    border:100%;
+    width:auto;
+    text-align:center;
+   
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +139,76 @@ p {
     justify-content: center;
 }
 
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background:gold;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +241,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*about page*/
+.top-info{
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.work{
+  border-bottom: 1px dashed black; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 1%;
+}
+.bottom-info{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.info{
+    border-bottom: 1px dashed black;
+    margin-top: 2%; 
+    margin-bottom:2%;   
+}
+button{
+    width:120px;
+    height:40px;
+    border-radius: 5px;
+    border-color: black;
+    border:5px;
+    background-color:none;
+    color:black;
+    
+}
+* { border: 0; }
