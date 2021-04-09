@@ -65,7 +65,36 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*Header section*/
+header{
+    width:100%
 
+}
+
+nav {
+    padding:left 1%;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family:'Roboto';
+    font-weight: bold;
+    width:100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 6%;
+    margin-top: 10%;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    border:100%;
+    width:auto;
+    text-align:center;
+   
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -94,6 +123,7 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+/* index box content*/
 
 .middle-content .boxes {
     display: flex;
@@ -104,12 +134,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background:teal;
+}
+
+.box2 {
+  background:gold;
+}
+
+.box3 {
+    background:cadetblue;
+}
+
+.box4 {
+   background:coral;
+}
+
+.box5 {
+   background:crimson;
+}
+
+.box6 {
+    background:forestgreen;
+} 
+
+.box7 {
+   background:darkorchid;
+} 
+
+.box8 {
+    background:hotpink; 
+}
+
+.box9 {
+    background:indigo;
+}
+
+.box10 {
+  background:dodgerblue; 
 }
 
 .bottom-content {
@@ -143,4 +212,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*about page*/
+.top-info{
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.work{
+  border-bottom: 1px dashed black; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 1%;
+}
+.bottom-info{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.info{
+    margin-top: 2%; 
+    margin-bottom:4%;   
+}
+.line {
+    margin-top: 2%; 
+    margin-bottom:2%; 
+    border-bottom: 1px dashed black;
+    margin-bottom: 2%;
+}
+button{
+    font-weight: bold;
+    width:120px;
+    height:40px;
+    border-radius: 12px;
+    border:2px solid black;
+    background-color:white;
+    color:black; 
+    margin-top: 4%;
+    margin-bottom:4%;  
+}
+.close{
+    margin-bottom: 4%;
 }
