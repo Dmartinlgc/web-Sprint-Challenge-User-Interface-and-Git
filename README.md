@@ -39,7 +39,7 @@ Edit this document to include your answers after each question. Make sure to lea
 3. What are the 4 areas of the box model?
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+vertical axis  
 5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
@@ -71,7 +71,7 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
+* [ ] box1: ``
 * [ ] box2: `gold`
 * [ ] box3: `cadetblue`
 * [ ] box4: `coral`

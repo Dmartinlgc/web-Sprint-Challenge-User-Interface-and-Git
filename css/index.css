@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    /* border:1px solid blue */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -48,12 +49,15 @@ table {
 }
 
 * {
+    font-family: "Roboto|Rubik";
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,8 +75,36 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+header{
     display: flex;
+    margin-bottom:3%; 
+    margin-top: 3%;
+}
+
+
+nav{
+display:flex;
+align-items: baseline;
+justify-content: space-between;
+}
+
+nav, a {
+    width:100%;
+    margin-left: 4%;
+    margin-top:2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    justify-content:space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo{
+    margin-bottom: 4%;
+}
+.top-content {
+     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
@@ -111,6 +143,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* box coloring method (nth child) based of feedback from previous sprint */
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -127,20 +190,85 @@ p {
 }
 
 footer {
+    display:flex;
+    justify-content: flex-start;
     width: 100%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    width: 55%;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
+    justify-content:space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
 
 footer nav a {
+    width:10%;
     color: white;
     text-decoration: none;
+}
+/* About page styles */
+
+.aboutTop{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+button{
+    margin:4%;
+    width:34%;
+    border:2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding:2% ;
+    font-family: "Roboto";
+    font-size: 1.1rem;;
+}
+.firstSec{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 4%;
+}
+.firstSec h2{
+    margin-top: 4%;
+}
+.secondSec{
+    margin-bottom:5%; 
+    display: flex;
+    align-items:center;
+}
+.secondSec h2{
+    margin-top: 4%;
+}
+.strategy{
+    width:50%;
+    margin-right: 2.5%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.how{
+    width:50%;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+}
+.work{
+    width:50%;
+    margin-right: 2.5%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.colab{
+    width:50%;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;  
+}
+.cta{
+    margin-bottom: 5%;
 }
